@@ -9,7 +9,7 @@ int main()
 	s=0;
 	cin>>n;
 	k=n;
-	while(n>=1)
+	while(n>=1)//good thinking
 	{
 		p=n%10;
 		if(p!=4&p!=7)
@@ -19,7 +19,7 @@ int main()
 		}
 		n=n/10;
 	}
-	if(k%4==0||k%7==0||k%74==0||k%47==0)
+	if(k%4==0||k%7==0||k%74==0||k%47==0)//time saved condition
 	{
 		s=0;
 	}
