@@ -16,7 +16,7 @@ int main()
 		cin>>x[i]>>y[i]>>z[i];
 	}
 	//for finding sum
-	for(int i=0;i<n;i++)
+	for(int i=0;i<n;i++)//un necessary loop
 	{
 		s=s+x[i];
 		s+=1;
@@ -24,7 +24,7 @@ int main()
 		p=p+z[i];
 		k=k+y[i];
 	}
-	if(s==0&p==0&k==0)
+	if(s==0&p==0&k==0)//main condition
 	{
 		cout<<"YES";
 	}
