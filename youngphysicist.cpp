@@ -11,10 +11,7 @@ int main()
 	s=0;
 	p=0;
 	k=0;
-	for(int i=0;i<n;i++)
-	{
-		cin>>x[i]>>y[i]>>z[i];
-	}
+	//edited 1 line of code....
 	for(int i=0;i<n;i++)
 	{
 		s=s+x[i];
