@@ -21,15 +21,10 @@ int main()
 		{
 			cin>>b[j];
 			c[i]=c[i]+b[j];
-		}
-		if(c[i]%a[i]==0)
-		{
-			cout<<c[i]/a[i]<<endl;
-		}
 		else
 		{
 			cout<<c[i]/a[i]+1<<endl;
 		}
 	}
-	
+	//the code is now optimised
 }
