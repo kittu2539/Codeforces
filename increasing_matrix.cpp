@@ -24,7 +24,7 @@ int main()
 			{
 				if(a[i-1][j]>=a[i][j-1])
 				{
-					a[i][j]=a[i-1][j]+1;
+					a[i][j]=a[i-1][j]+1; // very good nice great code
 				}
 				else
 				{
